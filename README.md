@@ -18,10 +18,6 @@ Local persistence using browser localStorage
 Important prototype note
 AI analysis, risk scores, route savings and prediction values are DEMO/SIMULATED unless connected to a real model/data source. The app does not claim real AI accuracy.# farm-ts
 
-Minimal split backend/frontend starter: **FastAPI + MongoDB** behind a
-**Vite + React 19 + TypeScript** frontend, joined by a small typed fetch layer
-over `/api`. This is a bare skeleton — no app features are implemented. Build on
-top of it.
 
 ## Layout
 
