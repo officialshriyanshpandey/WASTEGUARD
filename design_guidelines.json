@@ -1,0 +1,101 @@
+{
+  "project_title": "EcoClean - Civic Smart Waste Management & Reporting Platform",
+  "app_type": "hybrid_fullstack",
+  "theme": "clean_light_green",
+  "design_archetype": "ORGANIC & EARTHY (Trust, Growth, Sustainability)",
+  "color_palette": {
+    "primary": "oklch(0.52 0.17 145)",
+    "primary_hover": "oklch(0.46 0.18 145)",
+    "primary_light": "oklch(0.95 0.05 145)",
+    "secondary": "oklch(0.96 0.02 145)",
+    "secondary_foreground": "oklch(0.25 0.08 145)",
+    "background": "oklch(0.985 0.005 140)",
+    "card_background": "oklch(1 0 0)",
+    "foreground": "oklch(0.18 0.02 140)",
+    "muted": "oklch(0.96 0.01 140)",
+    "muted_foreground": "oklch(0.50 0.02 140)",
+    "accent_emerald": "#10B981",
+    "accent_leaf": "#059669",
+    "status_pending_warning": "#F59E0B",
+    "status_in_progress": "#3B82F6",
+    "status_resolved_success": "#10B981",
+    "status_critical": "#EF4444",
+    "border_subtle": "oklch(0.92 0.01 140)"
+  },
+  "typography": {
+    "heading_font": "Geist Variable, sans-serif",
+    "body_font": "Geist Variable, sans-serif",
+    "mono_font": "Geist Mono, monospace",
+    "hierarchy": {
+      "h1": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-emerald-950 dark:text-emerald-50",
+      "h2": "text-2xl sm:text-3xl font-bold tracking-tight text-emerald-900 dark:text-emerald-100",
+      "h3": "text-lg sm:text-xl font-semibold text-slate-900 dark:text-slate-100",
+      "subtext": "text-sm text-slate-500 dark:text-slate-400 leading-relaxed",
+      "badge": "text-xs font-semibold px-2.5 py-1 rounded-full uppercase tracking-wider"
+    }
+  },
+  "layout_and_spacing": {
+    "container_padding": "px-4 sm:px-6 lg:px-8 py-6 max-w-7xl mx-auto",
+    "card_style": "bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 p-5 sm:p-6",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5",
+    "header_style": "sticky top-0 z-50 backdrop-blur-xl bg-white/85 dark:bg-slate-900/85 border-b border-slate-200/60 dark:border-slate-800"
+  },
+  "roles_and_flows": {
+    "citizen_flow": {
+      "description": "Report waste issues with photo/location, request doorstep pickup, track status live, and earn eco reward points.",
+      "key_features": [
+        "Quick Action Hero Banner with Geolocation detector",
+        "Report Waste / Illegal Dump modal with photo URL, severity tag, location pin",
+        "Schedule Special Doorstep Bulk Waste Pickup",
+        "My Complaints list with live stage progress bar (Reported -> Assigned -> In Progress -> Cleaned)",
+        "Reward Points counter & Green Badges redeem system"
+      ]
+    },
+    "worker_flow": {
+      "description": "Field worker portal to view route tasks, start task, update status with resolution proof, and mark job completed.",
+      "key_features": [
+        "Daily Task Queue sorted by priority & proximity ETA",
+        "Task Map card with turn-by-turn simulation & location coordinates",
+        "Start Job / Update Status toggle with timer & resolution note submission",
+        "Completed tasks history log"
+      ]
+    },
+    "admin_flow": {
+      "description": "Municipal command center to monitor civic complaint statistics, assign workers, oversee hotspots on dynamic map, and auto-dispatch.",
+      "key_features": [
+        "4 KPI Metric Cards (Total Complaints, Pending, In Progress, Cleaned Today, High Risk)",
+        "Interactive Smart City Hotspot Map with status-coded markers (Red=Pending, Blue=In Progress, Green=Cleaned)",
+        "Worker Assignment Matrix (assign unassigned reports to active field workers)",
+        "Filters by Ward, Category, Severity & Date",
+        "Analytics charts powered by Recharts (Daily Resolution Rate, Category Breakdown)"
+      ]
+    }
+  },
+  "image_urls": {
+    "waste_bins_1": "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwxfHx3YXN0ZSUyMG1hbmFnZW1lbnQlMjByZWN5Y2xpbmclMjBjbGVhbiUyMGNpdHklMjBncmVlbiUyMGVudmlyb25tZW50fGVufDB8fHx8MTc5MDc4NTA1NHww&ixlib=rb-4.1.0&q=85",
+    "garbage_truck_cleaning": "https://images.unsplash.com/photo-1574974671999-24b7dfbb0d53?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NjZ8MHwxfHNlYXJjaHwyfHx3YXN0ZSUyMG1hbmFnZW1lbnQlMjByZWN5Y2xpbmclMjBjbGVhbiUyMGNpdHklMjBncmVlbiUyMGVudmlyb25tZW50fGVufDB8fHx8MTc5MDc4NTA1NHww&ixlib=rb-4.1.0&q=85",
+    "sanitation_worker_hero": "https://images.unsplash.com/photo-1606092034907-095210571882?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwyfHxzYW5pdGF0aW9uJTIwd29ya2VyJTIwZ2FyYmFnZSUyMHRydWNrJTIwcmVjeWNsaW5nJTIwd29ya2VyfGVufDB8fHx8MTc5MDc4NTA1NHww&ixlib=rb-4.1.0&q=85",
+    "workers_on_field": "https://images.unsplash.com/photo-1767369327984-d83a0ffe4bda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwzfHxzYW5pdGF0aW9uJTIwd29ya2VyJTIwZ2FyYmFnZSUyMHRydWNrJTIwcmVjeWNsaW5nJTIwd29ya2VyfGVufDB8fHx8MTc5MDc4NTA1NHww&ixlib=rb-4.1.0&q=85"
+  },
+  "interactive_map_guidelines": {
+    "implementation": "Use a Leaflet / Canvas / SVG-based interactive city map component with real browser navigator.geolocation coordinate fetching fallback.",
+    "marker_color_coding": {
+      "pending": "#EF4444 (Red Pulsing Pin)",
+      "assigned": "#F59E0B (Amber Pin)",
+      "in_progress": "#3B82F6 (Blue Pin)",
+      "resolved": "#10B981 (Emerald Green Check Pin)"
+    },
+    "geolocation": "Include a 'Detect My Live Location' button that populates lat/lng coordinates and street address in complaint & pickup forms."
+  },
+  "testing_and_accessibility": {
+    "data_testid_rule": "ALL interactive buttons, inputs, tabs, modal triggers, status badges, and table rows MUST have kebab-case data-testid attributes (e.g. data-testid='role-switch-worker-btn', data-testid='submit-complaint-btn', data-testid='assign-worker-select').",
+    "contrast": "All text elements must satisfy AA contrast ratios against their respective light/dark backgrounds."
+  },
+  "instructions_to_main_agent": [
+    "1. Keep single link app architecture with a persistent top bar navigation allowing seamless Role Switcher (Citizen | Sanitation Worker | Municipal Admin).",
+    "2. Ensure state changes (e.g., Citizen reports waste -> Admin assigns Worker -> Worker completes task) immediately reflect across all roles via API / React state sync.",
+    "3. Implement full MongoDB backend endpoints for users, complaints, pickup requests, workers, and metrics.",
+    "4. Pre-seed demo data so the dashboard is immediately vibrant with real-looking civic issues, mapped hotspots, assigned tasks, and reward points.",
+    "5. Use Sonner toasts for action feedback (e.g., 'Complaint Submitted Successfully!', 'Worker Assigned', 'Task Marked Complete')."
+  ]
+}
